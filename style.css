@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: linear-gradient(to right, rgba(192, 76, 139, 0.8), rgba(34, 76, 176, 0.8)), url('image/windows-vista.jpg'); */
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-size: cover; */
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.image{
+    width: 67%;
+    background-image: linear-gradient(to bottom, rgba(66, 77, 167, 0.85), rgba(148, 80, 155, 0.85)), url(image/office-lady.jpg);
+    height: 550px;
+    background-size: cover;
+    position: center center;
+}
+
+.aside{
+    position: relative;
+    background-color: #fff;
+    width: 33%;
+    height: 550px;
+    justify-items: center;
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.box1{
+    height: 15px;
+    width: 80%;
+    padding: 2px;
+    border-style: hidden;
+    border-bottom: 1px solid #242424;
+    display: block;
+    margin: 3px 0 17px 0;
+}
+ 
+.box1:focus{
+    outline: none;
+}
+
+.form-group{
+    margin: 10px 0;
+    margin-left: 13%;
+    
+}
+.sign-up{
+    width: 100px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #c54a89;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+.sign-in{
+    width: 100px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #f4f4f4;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-position: right center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 7px;
+}
+
+.sm-text{
+    font-size: 12px;
+}
+
+.arrange{
+display: flex;
+margin-top: 40px;
+margin-left: 10%;
+font-size: 14px;
+}
+
+ .icon-img{
+    width: 20px;
+}
+
+.social-2{
+    margin-left: 35px;
+}
+
+#footer{
+    padding-top: 15%;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
